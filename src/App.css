@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: #5ca5a540;
+}
+.container{
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header{
+  background-color: #5CA5A5;
+  height: 156px;
+  position: relative;
+}
+.imgHeader{
+  left: 0;
+  height: 156px;
+  position: absolute;
+}
+.imgHeader1{
+  height: 156px;
+  right: 0;
+  /* z-index: -1; */
+  position: absolute;
+}
+.main{
+  width: 100%;
+  margin-top: 50px;
+}
+.main-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.blockk{
+  width: 100%;
+  min-height: 152px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  height: 89px;
+}
+.information{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.information img{
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+.info{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info-top{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-weight: 700;
+}
+.info-top span{
+  font-size: 18px;
+  line-height: 17px;
+  color: #5CA5A5;
+}
+.info-top .new{
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  background-color: #5CA5A5;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.info-top .FEATURED{
+  background-color: black;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;  
+}
+.info-top button:empty{
+  display: none;
+}
+.info .info-midle{
+  display: flex;
+  align-items: center;
+  color: #2B3939;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.info .info-bottom{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.info-bottom span{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7C8F8F;
+}
+.info-bottom div{
+  width: 8px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #7C8F8F;
+}
+.language{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.language span{
+  padding: 5px 10px;
+  background-color: #5ca5a553;
+  color: #5CA5A5;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: -0.12px;
+}
+
+.blockk {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+.blockk:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
