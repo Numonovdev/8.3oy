@@ -1,6 +1,5 @@
 import imgHeader1 from "./assets/header.png"
 import imgHeader2 from "./assets/header1.png"
-import oval from "./assets/Oval.png"
 import './App.css'
 import { useEffect, useRef, useState } from "react"
 
@@ -15,12 +14,12 @@ const lavozimRef = useRef<HTMLInputElement | null>(null);
 const vaqtRef = useRef<HTMLSelectElement | null>(null);
 const workRef = useRef<HTMLSelectElement | null>(null);
 const joyRef = useRef<HTMLSelectElement | null>(null);
-const newRef = useRef<HTMLInputElement | null>(null); // "Yangi" checkbox
-const featureRef = useRef<HTMLInputElement | null>(null); // "Feauter" checkbox
-const fullstackRef = useRef<HTMLInputElement | null>(null); // "Fullstack" checkbox
-const midweightRef = useRef<HTMLInputElement | null>(null); // "Midweight" checkbox
-const pythonRef = useRef<HTMLInputElement | null>(null); // "Python" checkbox
-const reactRef = useRef<HTMLInputElement | null>(null); // "React" checkbox
+const newRef = useRef<HTMLInputElement | null>(null); 
+const featureRef = useRef<HTMLInputElement | null>(null); 
+const fullstackRef = useRef<HTMLInputElement | null>(null);
+const midweightRef = useRef<HTMLInputElement | null>(null);
+const pythonRef = useRef<HTMLInputElement | null>(null); 
+const reactRef = useRef<HTMLInputElement | null>(null); 
 const [data, setData] = useState<Type[]>([]);
 
 interface Type {
